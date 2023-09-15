@@ -1,0 +1,121 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+body {
+    background-color: rgb(239, 240, 227);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#imagem {
+    text-align: center;
+}
+/* Seleciona o título da tabela (caption) */
+caption {
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    font-size: 20px; /* Define o tamanho da fonte como 20 pixels */
+    color: #660000; /* Define a cor da fonte como preto */
+    text-align: center;
+}
+able {  
+    border-radius: 10%;
+}
+color a{
+     color: #006600;
+}
+.formularioa{
+     font-size: 18px;
+     color: #006600;
+}
+color b{
+    color:#0000ff;
+}
+.formulariob{
+    font-size: 18px;
+    color:#0000ff;
+}
+color c{
+    color: #ff9900;
+}
+.formularioc{
+    font-size: 18px;
+    color: #ff9900;
+}
+figure{
+    border: 1px color #cccccc solid;
+    height: 50%;
+    padding: 4px;
+    margin: auto;
+}
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
+figure img{
+    border-radius: 50%;
+}
+.rodape{
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   background-image: linear-gradient(white, #660000);
+    color: white;
+    text-align: center;
+ }
+#tabela{
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+    text-align: center;
+  }
+th {
+    padding: .7em;
+    margin: 0;
+    /*border: 1px solid #ccc;*/
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+ 
+  tr{
+    background-color: #660000;
+  }
+td{
+    color: black;
+    background-color: white;
+}
+#cabecalho{
+    text-align: center;
+    font-size: 25px;
+}
+.centro{
+    text-align: center;
+    color: #660000;
+    text-transform: uppercase;
+        font-size: 20px;
+}
+/*BOX MODEL INICIO*/
+.boxmodel{
+    width: 320px;
+    padding: 10px;
+    border: 5px solid #0f0000;
+    margin: auto;
+  }
+  .ti{
+    text-align: center;
+  }
+  .botao{
+    float: right;
+    padding: 30px;
+  }
+  /*BOX MODEL FIM*/
