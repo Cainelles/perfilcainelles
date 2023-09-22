@@ -82,7 +82,7 @@ td, th {
   }
 
   td{
-    background-color: #f0f0f0;
+    background-color: white;
   }
 
   th {
@@ -106,3 +106,12 @@ td, th {
     border: 1px solid rgb(189, 185, 185);
     margin: auto;
 }
+div {
+   
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  p.ex1 {
+    margin-left: inherit;
+  }
