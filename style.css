@@ -24,7 +24,7 @@ caption {
 td {
     text-align: center;
     font-weight: bold;
-    color: #c26861;
+    color: rgb (239, 240, 227)   ;
 }
 
 #colorA {
@@ -78,7 +78,7 @@ td, th {
   }
   
   tr{
-    background-color: #660000;
+    background-color: white;
   }
 
   td{
@@ -92,7 +92,7 @@ td, th {
   .bord {
         width: 320px;
         padding: 10px;
-        border: 5px solid gray;
+        border: 5px solid red;
         margin: auto;
   }
 
