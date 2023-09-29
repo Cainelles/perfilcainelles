@@ -115,3 +115,42 @@ div {
   p.ex1 {
     margin-left: inherit;
   }
+  
+  /*FORMULÁRIO BOX MODEL EXEMPLO 1
+
+/* Estilize o contêiner do formulário */
+.formulario-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilize os campos de entrada e rótulos */
+.formulario-container label, .formulario-container input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.formulario-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilize o botão de envio */
+.formulario-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario-container button:hover {
+  background-color: #0056b3;
+}
+
